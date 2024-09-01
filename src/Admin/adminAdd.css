@@ -1,0 +1,70 @@
+.add .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DFDFDF;
+}
+
+input{
+    font-family: "Alata", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.add .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add .main form .mb-3 button{
+    color: #660033;
+    background-color: #FFE4F2;
+    padding: 5px 15px;
+    border-radius: 100px;
+    border: none;
+    font-family: "Alata", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.instruction{
+    font-size: 12px;
+    font-family: "Alata", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.add .main form .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add .main form .button .btn{
+    background-color: #660033;
+    color: white;
+    padding: 8px 50px;
+    border-radius: 100px;
+}
+
+.users{
+    padding: 3px 10px;
+}
+
+@media screen and (max-width:700px) {
+    .add .main{
+        gap: 0px;
+      justify-content: center !important;
+    }
+    .add .main img{
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width:500px) {
+    .add .main form .mb-3 input{
+      width: 300px;
+    }
+  }

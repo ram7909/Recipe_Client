@@ -1,0 +1,110 @@
+.recipeDetail .head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipeDetail .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recipeDetail .main .card {
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.recipeDetail .main .card .imgs {
+    width: 100%;
+    height: 270px;
+}
+
+.recipeDetail .main .card img {
+    width: 100%;
+    height:100%;
+    border-radius: 15px;
+
+    object-fit: cover;
+}
+
+.recipeDetail .main .card .card-body .card-text span{
+    font-family: "Paytone One", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.recipeDetail .main .card .card-body .card-text{
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.recipeDetail .main .card .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.recipeDetail .main .card .button .btn{
+    padding: 8px 50px;
+    background-color: #660033;
+    border-radius: 50px;
+    border: none;
+}
+
+.recipeDetail .main .card .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.recipeDetail .main .card .buttons .img{
+    width: 75px;
+    height: 45px;
+    overflow: hidden;
+}
+.recipeDetail .main .card .buttons .middle{
+    width: 105px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.recipeDetail .main .card .buttons .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.recipeDetail .main .card .buttons .img .mid{
+    padding: 2px;
+    border: 1px solid #660033;
+}
+
+.recipeDetail .main .card .buttons .btn{
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+@media screen and (max-width:700px) {
+    .recipeDetail .main .i{
+        display: none;
+    }
+    .recipeDetail .main{
+        justify-content: center;
+    }
+    .recipeDetail .main .card{
+        width:25rem !important
+    }
+}
+@media screen and (max-width:450px) {
+    .recipeDetail .main .i{
+        display: none;
+    }
+    .recipeDetail .main{
+        justify-content: center;
+    }
+    .recipeDetail .main .card{
+        width:23rem !important
+    }
+}

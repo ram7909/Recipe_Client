@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Paytone+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Paytone One", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

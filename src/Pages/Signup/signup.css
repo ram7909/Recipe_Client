@@ -1,0 +1,102 @@
+
+.sign-up .head {
+    box-sizing: border-box;
+    padding: 25px 0px 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+  }
+  
+  .sign-up .head h2 {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sign-up .main {
+    box-sizing: border-box;
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DFDFDF;
+    color: black;
+  }
+  
+  .sign-up .main form .mb-3 label,option,select {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+  }
+  
+  .sign-up .main form .form-text {
+    font-family: "Alata", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #660033;
+  }
+  
+  .sign-up .main form .mb-3 input {
+    width: 450px;
+  }
+  
+  .sign-up .main form .mb-3 input:focus {
+    outline: none;
+  }
+  
+  .sign-up .main img:last-child {
+    margin-top: 200px;
+  }
+  
+  .sign-up .main form .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .sign-up .main form .button .btn {
+    margin-top: 20px;
+    background-color: #660033;
+    color: white;
+    padding: 13px 50px;
+    border-radius: 60px;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .sign-up .main form .button .btn:last-child {
+    margin-top: 20px;
+    background-color: #DFDFDF;
+    color: #660033;
+    padding: 13px 30px;
+    border-radius: 60px;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .sign-up .main form .button .sign{
+    background-color: #660033 !important;
+    color: #DFDFDF !important;
+  }
+
+  @media screen and (max-width:700px) {
+    .sign-up .main{
+      justify-content: center;
+    }
+    .sign-up .main img{
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width:500px) {
+    
+    .sign-up .main form .mb-3 input{
+      width: 300px;
+    }
+  }

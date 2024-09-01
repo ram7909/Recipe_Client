@@ -1,0 +1,191 @@
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav .img img {
+  width: 100vw;
+}
+
+nav .img {
+  position: relative;
+}
+
+nav .img ul {
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  color: white;
+}
+
+nav .img ul li {
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  list-style: none;
+}
+
+nav .img ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav .img ul li img {
+  height: 42px;
+  width: 213px;
+}
+
+
+nav .img ul li button {
+  padding: 10px 20px;
+  background-color: #016450;
+  border: 1.5px solid white;
+  color: white;
+  border-radius: 60px;
+}
+
+
+nav .img ul li button:hover {
+  background-color: white;
+  color: #016450;
+}
+
+.l-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.l-nav .bg{
+  width: 100vw;
+  position: relative;
+}
+
+.l-nav .logo {
+  position: absolute;
+  top: 25px;
+}
+
+nav .img .not-login{
+  gap: 400px;
+}
+
+nav .img .not-login div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media screen and (max-width:992px) {
+  
+  nav .img ul,.l-nav .logo{
+    top: 13px;
+    gap: 30px;
+  }
+  nav .img ul li{
+    font-size: 14px;
+  }
+  nav .img ul li img, .l-nav .logo {
+    height: 35px;
+    width: 185px;
+  }
+  nav .img ul li button {
+    padding: 8px 20px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  nav .img img,.l-nav .bg{
+    height: 65px;
+  }
+  nav .img ul,.l-nav .logo{
+    top: 13px;
+    gap: 20px;
+  }
+  nav .img ul li{
+    font-size: 13px;
+  }
+  nav .img ul li img {
+    height: 25px;
+    width: 130px;
+  }
+  .l-nav .logo{
+    height: 35px;
+  }
+  nav .img ul li button {
+    padding: 6px 15px;
+    /* border: none; */
+  }
+  nav .img ul li .ii{
+    display: none;
+  }
+}
+
+@media screen and (max-width:760px){
+  .bg{
+    height: 60px;
+  }
+  .not-login{
+    gap: 300px !important;
+  }
+}
+
+@media screen and (max-width:700px){
+  .not-login{
+    gap: 200px !important;
+  }
+}
+@media screen and (max-width:620px){
+  .not-login{
+    gap: 100px !important;
+  }
+  nav .img ul li button{
+    border: none;
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-width:500px) {
+
+  nav .img ul li a{
+    font-size: 12px !important;
+  }
+  nav .img img{
+    height: 55px;
+  }
+  nav .img ul{
+    top: 8px;
+  }
+  .not-login{
+    gap: 50px !important;
+  }
+}
+
+
+@media screen and (max-width:390px){
+  .not-login{
+    gap: 20px !important;
+  }
+}
+
+@media screen and (max-width:390px) {
+  nav .img ul li a{
+    font-size: 12px !important;
+  }
+  nav .img img{
+    height: 45px;
+  }
+  nav .img ul{
+    top: 5px;
+  }
+  nav .img ul li button {
+    border: none;
+    padding: 0;
+  }
+}

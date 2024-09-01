@@ -1,0 +1,83 @@
+.contact .head{
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.218);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.contact .main .card{
+    padding: 15px;
+    background-color: #FFE4F2;
+}
+
+.contact .main .card .box{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.contact .main .card .box p{
+    color: #660033;
+    font-family: "Alata", sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.contact .main .card .box a{
+    color: black;
+    text-decoration: none;
+    font-family: "Alata", sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.contact .main .card:last-child{
+    background-color: white;
+}
+
+.contact .main .card:last-child form div label{
+    font-family: "Alata", sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.contact .main .card:last-child form div input,textarea{
+    font-family: "Alata", sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    background-color: #dfdfdf76 !important;
+    border-radius: 5px !important;
+    resize: none;
+}
+textarea{
+    font-size: 13px !important;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn .btn{
+    background-color: #660033 !important;
+    color: white !important;
+    padding: 8px 25px;
+    border-radius: 50px;
+}
+
+
+@media screen and (max-width:650px) {
+    .contact .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

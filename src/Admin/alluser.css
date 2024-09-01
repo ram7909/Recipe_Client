@@ -1,0 +1,15 @@
+.adminbtn{
+    background-color: #660033;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 20px;
+}
+@media screen and (max-width:768px) {
+    .min{
+        flex-direction: column;
+        gap: 0px !important;
+    }
+    .min p{
+        margin: 0;
+    }
+}

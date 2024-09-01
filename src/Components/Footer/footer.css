@@ -1,0 +1,140 @@
+.footer-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer {
+    box-sizing: border-box;
+    padding: 70px 0px 70px 70px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+    background-color: #016450;
+    height: 350px;
+    width: 75vw;
+  }
+  
+  footer .mb-3 h5,
+  .footer-main .ft-2 h5 {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    word-spacing: 1px;
+  }
+  
+  footer .mb-3 p,
+  footer .mb-3 ul li a {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+  
+  .footer-main .ft-2 p,
+  .footer-main .ft-2 a {
+    font-family: "Alata", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    font-style: normal;
+    color: white;
+  }
+  
+  .footer-main .ft-2 {
+    height: 350px;
+    width: 25vw;
+    background-color: #004F3F;
+  }
+  
+  .footer-main .ft-2 a {
+    color: #FFFFFF99;
+  }
+
+  @media screen and (max-width:992px) {
+    footer{
+      height:250px;
+      padding: 25px 20px 0px 25px;
+      gap: 50px;
+    }
+    .footer-main .ft-2{
+      height: 250px;
+      padding: 25px 20px 0px 25px !important;
+    }
+
+    .footer-main .ft-2 p{
+      font-size: 14px;
+    }
+    footer .mb-3 p,footer .mb-3 ul li a {
+      font-size: 14px;
+    }
+    footer .mb-3 h5,.ft-2 h5{
+      font-size: 16px;
+    }
+    footer .mb-3 a img{
+      height: 35px;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    footer{
+      height:250px;
+      padding: 25px 20px 0px 25px;
+      gap: 50px;
+    }
+    .footer-main .ft-2{
+      height: 250px;
+      padding: 25px 20px 0px 25px !important;
+    }
+
+    .footer-main .ft-2 p{
+      font-size: 13px;
+    }
+    footer .mb-3 p,footer .mb-3 ul li a {
+      font-size: 13px;
+    }
+    footer .mb-3 h5,.ft-2 h5{
+      font-size: 14px;
+    }
+    footer .mb-3 a img{
+      height: 25px;
+    }
+  }
+
+  @media screen and (max-width:700px) {
+    footer{
+      width: 60vw;
+      gap: 20px;
+    }
+    .ft-2{
+      width: 40vw !important;
+    }
+    .connect{
+      display: none
+    }
+  }
+  
+  @media screen and (max-width:560px) {
+    footer{
+      width: 60vw;
+      gap: 20px;
+    }
+    .ft-2{
+      width: 40vw !important;
+    }
+    .usefullink{
+      display: none
+    }
+  }
+   @media screen and (max-width:700px) {
+    footer{
+      width: 40vw;
+      gap: 20px;
+    }
+    .ft-2{
+      width: 60vw !important;
+    }
+    .quiklink{
+      display: none
+    }
+  }
